@@ -1,4 +1,5 @@
 import logo from "./img/logo.svg";
+import ontoz from "./img/ontoz.jpg";
 import logo_dark from "./img/logo_dark.svg";
 import cross_icon from "./img/cross_icon.svg";
 import menu_icon from "./img/menu_icon.svg";
@@ -19,6 +20,7 @@ import profile_img_3 from "./img/profile_img_3.png";
 
 export const assets = {
   logo,
+  ontoz,
   logo_dark,
   cross_icon,
   menu_icon,
