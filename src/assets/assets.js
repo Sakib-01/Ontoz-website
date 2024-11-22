@@ -6,14 +6,14 @@ import menu_icon from "./img/menu_icon.svg";
 import star_icon from "./img/star_icon.svg";
 import left_arrow from "./img/left_arrow.svg";
 import right_arrow from "./img/right_arrow.svg";
-import header_img from "./img/header_img.png";
+import header_img from "./img/header_img.webp";
 import brand_img from "./img/brand_img.png";
-import project_img_1 from "./img/project_img_1.jpg";
-import project_img_2 from "./img/project_img_2.jpg";
-import project_img_3 from "./img/project_img_3.jpg";
-import project_img_4 from "./img/project_img_4.jpg";
-import project_img_5 from "./img/project_img_5.jpg";
-import project_img_6 from "./img/project_img_6.jpg";
+import project_img_1 from "./img/img_1.jpg";
+import project_img_2 from "./img/img_2.jpg";
+import project_img_3 from "./img/img_3.png";
+import project_img_4 from "./img/img_4.jpg";
+import project_img_5 from "./img/img_5.jpg";
+import project_img_6 from "./img/img_6.jpg";
 import profile_img_1 from "./img/profile_img_1.png";
 import profile_img_2 from "./img/profile_img_2.png";
 import profile_img_3 from "./img/profile_img_3.png";
@@ -37,39 +37,39 @@ export const assets = {
 
 export const projectsData = [
   {
-    title: "Skyline Haven",
+    title: "Global Textile Exports",
     price: "$2,50,000",
-    location: "California",
+    location: "Mumbai, India",
     image: project_img_1,
   },
   {
-    title: "Vista Verde",
-    price: "$2,50,000",
-    location: "San Francisco",
+    title: "Oceanic Seafood Trade",
+    price: "$3,00,000",
+    location: "Tokyo, Japan",
     image: project_img_2,
   },
   {
-    title: "Serenity Suites",
-    price: "$2,50,000",
-    location: "Chicago",
+    title: "Timber & Wood Exports",
+    price: "$1,80,000",
+    location: "Vancouver, Canada",
     image: project_img_3,
   },
   {
-    title: "Central Square",
-    price: "$2,50,000",
-    location: "Los Angeles",
+    title: "Agricultural Supplies Trade",
+    price: "$2,75,000",
+    location: "São Paulo, Brazil",
     image: project_img_4,
   },
   {
-    title: "Vista Verde",
-    price: "$2,50,000",
-    location: "San Francisco",
+    title: "Premium Electronics Import",
+    price: "$4,00,000",
+    location: "Berlin, Germany",
     image: project_img_5,
   },
   {
-    title: "Serenity Suites",
-    price: "$2,50,000",
-    location: "Chicago",
+    title: "Luxury Handicrafts Export",
+    price: "$1,50,000",
+    location: "Istanbul, Turkey",
     image: project_img_6,
   },
 ];

@@ -64,19 +64,16 @@ const Works = () => {
             {projectsData.map((project, i) => (
               <div key={i} className=" relative flex-shrink-0 w-full sm:w-1/4">
                 <img
-                  className=" w-full h-auto mb-14"
+                  className=" w-full h-64 mb-14"
                   src={project.image}
                   alt={project.title}
                 />
                 <div className="absolute left-0 right-0 bottom-5 flex justify-center">
                   <div className="inline-block bg-white w-3/4 px-4 py-2 shadow-md">
-                    <h2 className=" text-xl font-semibold text-gray-800">
+                    <h2 className=" text-lg font-semibold text-gray-800">
                       {project.title}
                     </h2>
-                    <p className="text-gray-500 text-sm">
-                      {project.price} <span></span>
-                      {project.location}
-                    </p>
+                    <p className="text-gray-500 text-sm">{project.location}</p>
                   </div>
                 </div>
               </div>
