@@ -45,22 +45,33 @@ const About = () => {
         />
       </div>
 
-      <div className=" w-full mt-5 bg-slate-100 border-b rounded-3xl border-blue-500 p-10">
-        <div className="grid grid-cols-4 gap-6 md:gap-10 w-full 2xl:pr-28">
+      <div className=" w-full mt-5 bg-slate-100 border-b-2 rounded-3xl border-blue-500 p-10">
+        <div
+          className="grid grid-cols-2  text-center
+         md:text-center md:grid-cols-4 gap-6 md:gap-10 w-full 2xl:pr-28"
+        >
           <div>
-            <p className=" text-4xl font-medium text-gray-800">10+</p>
+            <p className=" text-4xl text-center font-medium text-gray-800">
+              10+
+            </p>
             <p>Years of Experience </p>
           </div>
           <div>
-            <p className=" text-4xl font-medium text-gray-800">10+</p>
+            <p className=" text-4xl text-center font-medium text-gray-800">
+              10+
+            </p>
             <p>Years of Experience </p>
           </div>
           <div>
-            <p className=" text-4xl font-medium text-gray-800">10+</p>
+            <p className=" text-4xl text-center font-medium text-gray-800">
+              10+
+            </p>
             <p>Years of Experience </p>
           </div>
           <div>
-            <p className=" text-4xl font-medium text-gray-800">10+</p>
+            <p className=" text-4xl text-center font-medium text-gray-800">
+              10+
+            </p>
             <p>Years of Experience </p>
           </div>
         </div>
